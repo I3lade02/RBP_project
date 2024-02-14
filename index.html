@@ -6,9 +6,27 @@
     <title>My learning site</title>
     <style>
         .uvod {
-            text-align: center;
+            text-align: left;
             font-family: Arial, Helvetica, sans-serif;
             font-weight: bold;
+            text-align: center;
+        }
+
+        .pic {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pic img{
+            width: 15%;
+            height: auto;
+            box-shadow: 10px 10px 10px navy;
+        }
+        
+        .me{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
         }
     </style>
 </head>
@@ -16,6 +34,15 @@
     <div class="uvod">
         <p>Vítejte na mojí stránce se kterou se učím základy HTML, CSS a JS :-)</p>
         <p>Odkaz na tuto stránku najdete zde <br><a href="https://github.com/I3lade02/RBP_project">Odkaz na repo na Githubu</a></p>
+    </div>
+
+    <div class="pic">
+        <img src="C:\Users\ondra\webik\RBP_project\prof_pic.jpg" alt="picture-me">
+    </div>
+
+    <div class="me">
+        <h1>O mně</h1>
+        <p>Jmenuji se Ondřej Beránek, moje přezdíka je Bery <br>jsem počítačový nadšenec, co se rozhodl, že by se moc rád naučil tvořit weby, alespoň frontend :D <br>jinak jsem 22 letý student FSE UJEP, nadšenec pro hudbu a vášnivý hráč, ale ani sport mi není cizí</p>
     </div>
 </body>
 </html>
